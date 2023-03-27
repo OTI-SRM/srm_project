@@ -107,7 +107,5 @@
 		SELECT max(PRGRS_RT)
 		FROM PROGRESS
 		WHERE SR_NO = #{srNo}
-		AND
-		SYSDATE >= BGNG_YMD
 	</select>
 </mapper>
